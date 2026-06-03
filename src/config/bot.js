@@ -25,9 +25,9 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "ITS ØN OR NØTHING",
+        name: "join /miyaa today !",
         // Activity type number (0 = Playing).
-        type: 2, 
+        type: 4, 
       },
     ],
   },
@@ -88,7 +88,7 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#2E6F40", 
+      primary: "#0000FF", 
       secondary: "#2F3136", 
 
       // Standard status colors for success/error/warning/info messages.
@@ -170,7 +170,7 @@ export const botConfig = {
     baseBankCapacity: 100000,
 
     // Daily reward amount.
-    dailyAmount: 100,
+    dailyAmount: 100000,
 
     // Work command random payout range.
     workMin: 10,
